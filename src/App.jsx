@@ -1,9 +1,12 @@
-function App() {
+import Sidebar from "./components/Sidebar";
+import HomePage from "./pages/HomePage";
 
+function App() {
   return (
-    <>
-      <h1>Hello this is recipe app</h1>
-    </>
+    <div className="flex ">
+      <Sidebar />
+      <HomePage />
+    </div>
   );
 }
 
